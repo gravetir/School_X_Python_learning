@@ -13,4 +13,4 @@ n: int=int(input('N: '))
 #     i+=1
 while n>0:
     print(n)
-    n=n+1
+    n=n+10000000
