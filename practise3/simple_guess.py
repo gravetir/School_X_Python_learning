@@ -1,11 +1,13 @@
-#вывод корень числа , если он целый 
+# вывод корень числа , если он целый
 # если корня нету тогда "Трудно"
 # def guess(num:int) -> int:
-def guess(num:int) -> int|str:
-    for i in range(num+1):
+def guess(num: int) -> int | str:
+    for i in range(num + 1):
         if num == i**2:
-            return(i)
-    return "Трудно"
+            return i
+    return "Слишком сложно, не могу"
+
+
 print(guess(int(input("Введите число: "))))
 # import math
 # res=int()
